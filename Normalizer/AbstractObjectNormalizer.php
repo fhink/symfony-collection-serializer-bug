@@ -251,6 +251,10 @@ abstract class AbstractObjectNormalizer extends AbstractNormalizer
                 $builtinType = Type::BUILTIN_TYPE_OBJECT;
                 $class = $collectionValueType->getClassName().'[]';
 
+                if (!is_int(key($data))) {
+                    $data = array($data);
+                }
+
                 if (null !== $collectionKeyType = $type->getCollectionKeyType()) {
                     $context['key_type'] = $collectionKeyType;
                 }
