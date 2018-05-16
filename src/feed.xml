@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<buildings>
+    <restaurants>
+        <restaurant>
+            <name>Some restaurant name</name>
+            <type>Chinese</type>
+        </restaurant>
+        <restaurant>
+            <name>Another restaurant name</name>
+            <type>Italian</type>
+        </restaurant>
+    </restaurants>
+    <offices>
+        <office>
+            <company>Some company</company>
+            <owner>John</owner>
+        </office>
+    </offices>
+</buildings>

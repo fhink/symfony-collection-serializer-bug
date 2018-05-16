@@ -48,7 +48,7 @@
         "doctrine/cache": "For using the default cached annotation reader and metadata cache."
     },
     "autoload": {
-        "psr-4": { "Symfony\\Component\\Serializer\\": "" },
+        "psr-4": { "Symfony\\Component\\Serializer\\": "", "App\\": "src/" },
         "exclude-from-classmap": [
             "/Tests/"
         ]
